@@ -16,7 +16,7 @@ const heroImages = [
   {
     url: '/images/hero/yarn-storage%203.jpg',
     title: 'RAJU INDUSTRIES',
-    subtitle: 'Serving textile industry since 2002'
+    subtitle: 'Serving textile industry since 1993'
   },
   {
     url: '/images/hero/abt.jpg',

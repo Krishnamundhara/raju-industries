@@ -88,8 +88,10 @@ const Products = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl font-bold text-gray-900 text-center">Our Products</h1>
         <p className="mt-4 text-xl text-gray-600 text-center mb-12">
-          Discover our comprehensive range of high-quality yarns
+          Discover our comprehensive range of high-quality yarns.<br/>
+          Leveraging 30 years of expertise to provide the finest quality yarns for your needs
         </p>
+        
         
         {/* Category filters */}
         <div className="p-4 bg-white rounded-lg shadow-sm mb-8">

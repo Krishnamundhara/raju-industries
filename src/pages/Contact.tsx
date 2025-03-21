@@ -17,7 +17,7 @@ const Contact = () => {
 
     // Message to be sent
     const message = encodeURIComponent(
-      'Welcome to RAJU INDUSTRIES.\nWe supply all types of yarns at competitive rates.\nMOB.9309531311/9322223600'
+      'Welcome to RAJU INDUSTRIES.\nWe supply all types of yarns at competitive rates.\nMOB.9309531311/9322223600\nVisit our website: https://rajuindustries.netlify.app/'
     );
 
     // Create WhatsApp URL with phone number and message
@@ -74,51 +74,71 @@ const Contact = () => {
           </div>
         </div>
 
-        {/* WhatsApp Contact Form */}
-        <div className="mt-16 max-w-md mx-auto bg-white rounded-lg shadow-sm p-6">
-          <h3 className="text-lg font-semibold text-gray-900 mb-4">
-            Get Product Information on WhatsApp
-          </h3>
-          
-          <form onSubmit={handleWhatsAppSubmit} className="space-y-4">
-            <div>
-              <label htmlFor="phone" className="block text-sm font-medium text-gray-700">
-                Enter your mobile number
-              </label>
-              <div className="mt-1 relative rounded-md shadow-sm">
-                <div className="absolute inset-y-0 left-0 flex items-center pl-3">
-                  <span className="text-gray-500 sm:text-sm">+91</span>
+        {/* WhatsApp Form and QR Code Section */}
+        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          {/* WhatsApp Form */}
+          <div className="bg-white rounded-lg shadow-sm p-6">
+            <h3 className="text-lg font-semibold text-gray-900 mb-4">
+              Get Product Information on WhatsApp
+            </h3>
+            <form onSubmit={handleWhatsAppSubmit} className="space-y-4">
+              <div>
+                <label htmlFor="phone" className="block text-sm font-medium text-gray-700">
+                  Enter your mobile number
+                </label>
+                <div className="mt-1 relative rounded-md shadow-sm">
+                  <div className="absolute inset-y-0 left-0 flex items-center pl-3">
+                    <span className="text-gray-500 sm:text-sm">+91</span>
+                  </div>
+                  <input
+                    type="tel"
+                    id="phone"
+                    value={phoneNumber}
+                    onChange={(e) => {
+                      setPhoneNumber(e.target.value);
+                      setError('');
+                    }}
+                    className={`block w-full pl-12 pr-4 py-2 border ${
+                      error ? 'border-red-300' : 'border-gray-300'
+                    } rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500`}
+                    placeholder="Enter 10 digit number"
+                    maxLength={10}
+                  />
                 </div>
-                <input
-                  type="tel"
-                  id="phone"
-                  value={phoneNumber}
-                  onChange={(e) => {
-                    setPhoneNumber(e.target.value);
-                    setError('');
-                  }}
-                  className={`block w-full pl-12 pr-4 py-2 border ${
-                    error ? 'border-red-300' : 'border-gray-300'
-                  } rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500`}
-                  placeholder="Enter 10 digit number"
-                  maxLength={10}
-                />
+                {error && (
+                  <p className="mt-1 text-sm text-red-600">
+                    {error}
+                  </p>
+                )}
               </div>
-              {error && (
-                <p className="mt-1 text-sm text-red-600">
-                  {error}
-                </p>
-              )}
+              
+              <button
+                type="submit"
+                className="w-full flex justify-center items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"
+              >
+                <Send className="h-4 w-4 mr-2" />
+                Send on WhatsApp
+              </button>
+            </form>
+          </div>
+
+          {/* QR Code Section */}
+          <div className="bg-white rounded-lg shadow-sm p-6 flex flex-col items-center justify-center">
+            <h3 className="text-lg font-semibold text-gray-900 mb-4">
+              Scan to Visit Our Website
+            </h3>
+            <div className="p-4 bg-white rounded-lg shadow-sm">
+              <img 
+                src="/images/rajuindustries_qr.png"
+                alt="Raju Industries Website QR Code"
+                className="w-48 h-48 object-contain"
+              />
             </div>
-            
-            <button
-              type="submit"
-              className="w-full flex justify-center items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"
-            >
-              <Send className="h-4 w-4 mr-2" />
-              Send on WhatsApp
-            </button>
-          </form>
+            <p className="mt-4 text-sm text-gray-600 text-center">
+              Scan this QR code to visit<br />
+              Raju Industries website
+            </p>
+          </div>
         </div>
 
         {/* Social Media Links */}

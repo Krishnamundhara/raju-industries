@@ -12,7 +12,8 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-gray-900">Welcome to Raju Industries</h2>
           <p className="mt-4 text-xl text-gray-600">
-            We are committed to delivering the highest quality yarns to our customers worldwide.
+            We are committed to delivering the highest quality yarns to our customers worldwide.<br/>
+            With more than 30 years of industry experience, our dedication to quality, competitive pricing, and reliable service has established us as a trusted partner in the yarn industry.
           </p>
         </div>
       </section>

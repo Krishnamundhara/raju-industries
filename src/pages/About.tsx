@@ -15,7 +15,7 @@ const About = () => {
         <div className="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">About Raju Industries</h1>
           <p className="mt-6 max-w-3xl text-xl">
-            A leading name in yarn trading since 2010, serving businesses across India.
+            A leading name in yarn trading since 1993, serving businesses across India.
           </p>
         </div>
       </div>
@@ -26,7 +26,7 @@ const About = () => {
           <h2 className="text-3xl font-bold text-gray-900">Our Company</h2>
           <div className="mt-6 prose prose-lg text-gray-500">
             <p>
-              Established in 2010, Raju Industries has grown to become one of the trusted names in the yarn industry, specializing in yarn trading solutions. Based in Bhiwandi, Maharashtra, we've expanded our operations to serve clients across India's major yarn hubs.
+              Established in 1993, Raju Industries has grown to become one of the trusted names in the yarn industry, specializing in yarn trading solutions. Based in Bhiwandi, Maharashtra, we've expanded our operations to serve clients across India's major yarn hubs.
             </p>
             <p>
               Our commitment to quality, integrity, and customer satisfaction has helped us build long-term relationships with manufacturers, traders, and businesses across the yarn supply chain. With a dedicated team of professionals and extensive industry knowledge, we strive to deliver exceptional products and services to meet the diverse needs of our clients.
@@ -78,23 +78,23 @@ const About = () => {
               
               <div className="bg-white p-6 rounded-lg shadow-sm text-center relative">
                 <div className="absolute top-0 right-0 w-3 h-3 bg-primary-600 rounded-full transform translate-x-1 -translate-y-1"></div>
-                <h3 className="text-lg font-semibold text-gray-900">Bhilwara</h3>
-                <p className="text-sm text-gray-500">Rajasthan</p>
-                <p className="mt-2 text-primary-600 font-medium">Northern Hub</p>
+                <h3 className="text-lg font-semibold text-gray-900">Bhrahanpur</h3>
+                <p className="text-sm text-gray-500">Madhya Pradesh</p>
+                <p className="mt-2 text-primary-600 font-medium"> Central India</p>
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-sm text-center relative">
                 <div className="absolute top-0 right-0 w-3 h-3 bg-primary-600 rounded-full transform translate-x-1 -translate-y-1"></div>
                 <h3 className="text-lg font-semibold text-gray-900">Surat</h3>
                 <p className="text-sm text-gray-500">Gujarat</p>
-                <p className="mt-2 text-primary-600 font-medium">Western Hub</p>
+                <p className="mt-2 text-primary-600 font-medium">Western India</p>
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-sm text-center relative">
                 <div className="absolute top-0 right-0 w-3 h-3 bg-primary-600 rounded-full transform translate-x-1 -translate-y-1"></div>
                 <h3 className="text-lg font-semibold text-gray-900">Erode</h3>
                 <p className="text-sm text-gray-500">Tamil Nadu</p>
-                <p className="mt-2 text-primary-600 font-medium">Southern Hub</p>
+                <p className="mt-2 text-primary-600 font-medium">Southern India</p>
               </div>
             </div>
             
@@ -109,7 +109,7 @@ const About = () => {
           <div className="bg-white p-6 rounded-lg shadow-sm">
             <h3 className="text-xl font-bold text-gray-900 mb-4">Strategic Network</h3>
             <p className="text-gray-600">
-              Our strategic presence in these key yarn manufacturing regions allows us to efficiently serve customers across India. With our headquarters in Bhiwandi (Maharashtra), we've established strong distribution channels in the northern region through Bhilwara (Rajasthan), western region through Surat (Gujarat), and southern region through Erode (Tamil Nadu).
+            Our strategic presence in key yarn manufacturing regions enables us to efficiently serve customers across India. With strong distribution channels in Bhiwandi (Maharashtra), Bharanpur (Madhya Pradesh), Surat (Gujarat), and Erode (Tamil Nadu), we ensure seamless supply and accessibility.
             </p>
             <p className="text-gray-600 mt-4">
               This nationwide network enables us to source the finest yarns from various manufacturing centers and deliver them to our customers with minimal lead times. Our presence in these yarn hubs also gives us insights into regional market trends, helping us better serve the specific needs of each region.

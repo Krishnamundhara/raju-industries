@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <h3 className="text-white text-lg font-semibold mb-4">Raju Industries</h3>
             <p className="text-gray-400">
-              Leading manufacturer and supplier of premium quality yarns since 2002.
+              Leading manufacturer and supplier of premium quality yarns since 1993.
               G.S.T. No.: 27AHFPM0511N1ZD
             </p>
           </div>

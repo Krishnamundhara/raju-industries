@@ -41,7 +41,7 @@ const About = () => {
                 Our Legacy of Excellence
               </h2>
               <p className="mt-4 text-lg text-gray-600">
-                Since 2002, Raju Industries has been at the forefront of textile manufacturing 
+                Since 1993, Raju Industries has been at the forefront of textile manufacturing 
                 and trading. Our commitment to quality and customer satisfaction has made us 
                 a trusted name in the industry.
               </p>
