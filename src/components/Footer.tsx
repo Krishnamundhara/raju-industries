@@ -1,5 +1,5 @@
 import React from 'react';
-import { Instagram, Facebook, Twitter, Youtube } from 'lucide-react';
+import { Instagram, Facebook, Twitter, Youtube, Globe } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -9,7 +9,8 @@ const Footer = () => {
           <div>
             <h3 className="text-white text-lg font-semibold mb-4">Raju Industries</h3>
             <p className="text-gray-400">
-              Leading manufacturer and supplier of premium quality yarns since 1993.
+              Leading manufacturer and supplier of premium quality yarns since 1993.<br />
+              <span className="font-medium">Govind Mundhara</span> (Proprietor)<br />
               G.S.T. No.: 27AHFPM0511N1ZD
             </p>
           </div>
@@ -36,6 +37,12 @@ const Footer = () => {
               </a>
               <a href="https://www.youtube.com/@Raju_Industries" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
                 <Youtube className="h-6 w-6" />
+              </a>
+              <a href="https://www.indiamart.com/krishna-fine-fab/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
+                <Globe className="h-6 w-6" />
+              </a>
+              <a href="https://jsdl.in/RSL-FPC1742615488" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
+                <Globe className="h-6 w-6" />
               </a>
             </div>
             <p className="mt-4 text-gray-400">

@@ -62,7 +62,10 @@ const Hero = () => {
             <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold text-white leading-tight">
               {heroImages[currentImageIndex].title}
             </h1>
-            <p className="mt-6 text-xl sm:text-2xl text-gray-300 max-w-2xl">
+            <p className="mt-2 text-lg sm:text-xl text-gray-300">
+              <span className="font-medium">Govind Mundhara</span> (Proprietor)
+            </p>
+            <p className="mt-4 text-xl sm:text-2xl text-gray-300 max-w-2xl">
               {heroImages[currentImageIndex].subtitle}
             </p>
             

@@ -45,6 +45,8 @@ const Contact = () => {
             <MapPin className="w-8 h-8 text-primary-600" />
             <h3 className="mt-4 text-lg font-semibold text-gray-900">Visit Us</h3>
             <p className="mt-2 text-gray-600 text-center">
+              Raju Industries<br />
+              <span className="font-medium">Govind Mundhara</span> (Proprietor)<br />
               67 Hassan bagh, opp hathi sizing,<br />
               dhamankar naka, bhiwandi<br />
               G.S.T. No.: 27AHFPM0511N1ZD
@@ -142,8 +144,8 @@ const Contact = () => {
         </div>
 
         {/* Social Media Links */}
-        <div className="mt-16 text-center p-8 bg-gray-100 rounded-lg shadow-sm">
-          <h3 className="text-lg font-semibold text-gray-900">Follow Us</h3>
+        <div className="mt-16 text-center">
+          <h3 className="text-lg font-semibold text-gray-900 mb-4">Follow Us</h3>
           <div className="mt-4 flex justify-center space-x-6">
             <a href="https://www.youtube.com/@Raju_Industries" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-primary-600">
               YouTube
@@ -156,6 +158,12 @@ const Contact = () => {
             </a>
             <a href="https://facebook.com/profile.php?id=100083314218016" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-primary-600">
               Facebook
+            </a>
+            <a href="https://www.indiamart.com/krishna-fine-fab/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-primary-600">
+              IndiaMART
+            </a>
+            <a href="https://jsdl.in/RSL-FPC1742615488" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-primary-600">
+              JustDial
             </a>
           </div>
         </div>

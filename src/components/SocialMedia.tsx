@@ -1,5 +1,5 @@
 import React from 'react';
-import { BadgeX, Facebook, Instagram, Linkedin, Twitter, X, XCircle, XIcon, Youtube } from 'lucide-react';
+import { BadgeX, Facebook, Instagram, Linkedin, Twitter, X, XCircle, XIcon, Youtube, Globe, Phone } from 'lucide-react';
 
 const socialLinks = [
   {
@@ -31,8 +31,19 @@ const socialLinks = [
     url: 'https://x.com/Raju_Industries',
     icon: X,  // Make sure you have the correct X icon imported
     color: 'bg-black hover:bg-gray-800 transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-gray-500/50'
+  },
+  {
+    name: 'IndiaMART',
+    url: 'https://www.indiamart.com/krishna-fine-fab/',
+    icon: Globe,
+    color: 'bg-yellow-600 hover:bg-yellow-700 transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-yellow-500/50'
+  },
+  {
+    name: 'JustDial',
+    url: 'https://jsdl.in/RSL-FPC1742615488',
+    icon: Phone,
+    color: 'bg-green-600 hover:bg-green-700 transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-green-500/50'
   }
-
 ];
 
 const SocialMedia = () => {
