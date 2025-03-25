@@ -59,20 +59,20 @@ const Hero = () => {
       <div className="relative z-10 h-full flex items-center">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold text-white leading-tight">
+            <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight">
               {heroImages[currentImageIndex].title}
             </h1>
-            <p className="mt-2 text-lg sm:text-xl text-gray-300">
+            <p className="mt-2 text-base sm:text-lg text-gray-300">
               <span className="font-medium">Govind Mundhara</span> (Proprietor)
             </p>
-            <p className="mt-4 text-xl sm:text-2xl text-gray-300 max-w-2xl">
+            <p className="mt-4 text-lg sm:text-xl md:text-2xl text-gray-300 max-w-2xl">
               {heroImages[currentImageIndex].subtitle}
             </p>
             
-            <div className="mt-12 flex flex-col sm:flex-row gap-6">
+            <div className="mt-8 sm:mt-12 flex flex-col sm:flex-row gap-4 sm:gap-6">
               <a
                 href="/products"
-                className="group inline-flex items-center justify-center gap-x-2 rounded-md px-8 py-4 text-lg font-semibold text-white bg-primary-600 hover:bg-primary-700 transition-colors"
+                className="group inline-flex items-center justify-center gap-x-2 rounded-md px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-semibold text-white bg-primary-600 hover:bg-primary-700 transition-colors"
               >
                 View Products
                 <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
