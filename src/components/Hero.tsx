@@ -70,13 +70,13 @@ const Hero = () => {
             </p>
             
             <div className="mt-8 sm:mt-12 flex flex-col sm:flex-row gap-4 sm:gap-6">
-              <a
-                href="/products"
+              <Link
+                to="/products"
                 className="group inline-flex items-center justify-center gap-x-2 rounded-md px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-semibold text-white bg-primary-600 hover:bg-primary-700 transition-colors"
               >
                 View Products
                 <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
-              </a>
+              </Link>
               <Link
                 to="/contact"
                 className="inline-flex items-center justify-center gap-x-2 rounded-md px-8 py-4 text-lg font-semibold text-white border border-white hover:bg-white hover:text-primary-700 transition-colors"
