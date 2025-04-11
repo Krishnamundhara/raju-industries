@@ -4,6 +4,11 @@ import { Link } from 'react-router-dom';
 
 const heroImages = [
   {
+    url: '/images/hero/color.jpg',
+    title: 'RAJU INDUSTRIES',
+    subtitle: 'Trade Yarn. Make Fabric. Lead with Quality.'
+  },
+  {
     url: '/images/hero/yarn-storage.jpg',
     title: 'RAJU INDUSTRIES',
     subtitle: 'Leading Manufacturer of Premium Textile products'
