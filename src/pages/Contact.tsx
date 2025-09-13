@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
+import SEO from '../components/SEO';
 
 const Contact = () => {
   const [phoneNumber, setPhoneNumber] = useState('');
@@ -33,6 +34,11 @@ const Contact = () => {
 
   return (
     <div className="py-16 bg-gray-50">
+      <SEO 
+        title="Contact Raju Industries | Yarn & Fabric Brokerage"
+        description="Contact Raju Industries for all your yarn and fabric needs. Reach us in Bhiwandi, Maharashtra, or at our branches in Bhrahanpur, Surat, and Erode."
+        pathname="/contact"
+      />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-bold text-gray-900 text-center">Contact Us</h2>
         <p className="mt-4 text-xl text-gray-600 text-center mb-12">

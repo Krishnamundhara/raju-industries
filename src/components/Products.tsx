@@ -158,7 +158,7 @@ const Products = () => {
             Our Products & Services
           </h2>
           <p className="mt-4 text-xl text-gray-600">
-            Quality fabric manufacturing and comprehensive yarn trading solutions
+            Premium brokerage services for quality yarns and fabrics across India
           </p>
         </div>
 

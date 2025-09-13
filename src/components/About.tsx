@@ -3,18 +3,18 @@ import { Award, Clock, Globe } from 'lucide-react';
 
 const features = [
   {
-    name: 'Quality Products',
-    description: 'Premium yarn and fabric products meeting international quality standards',
+    name: 'Quality Brokerage',
+    description: 'Connecting buyers with premium yarn and fabric sources that meet international standards',
     icon: Award
   },
   {
     name: 'Industry Experience',
-    description: 'Over two decades of expertise in textile manufacturing and trading',
+    description: 'Over two decades of expertise in textile trading and brokerage services',
     icon: Clock
   },
   {
     name: 'Pan-India Presence',
-    description: 'Serving major textile hubs across India with reliable service',
+    description: 'Serving major textile hubs across Maharashtra, Gujarat, Madhya Pradesh, and Tamil Nadu',
     icon: Globe
   }
 ];
@@ -41,9 +41,10 @@ const About = () => {
                 Our Legacy of Excellence
               </h2>
               <p className="mt-4 text-lg text-gray-600">
-                Since 1993, Raju Industries has been at the forefront of textile manufacturing 
-                and trading. Our commitment to quality and customer satisfaction has made us 
-                a trusted name in the industry.
+                Since 1993, Raju Industries has been a trusted textile broker and trader.
+                With headquarters in Bhiwandi, Maharashtra, and a strong presence across 
+                Central, Western, and Southern India, our commitment to quality and customer 
+                satisfaction has made us a trusted name in the industry.
               </p>
             </div>
 

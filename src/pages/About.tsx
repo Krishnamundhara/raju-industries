@@ -1,9 +1,15 @@
 import React from 'react';
 import { MapPin, Award, Target, Compass } from 'lucide-react';
+import SEO from '../components/SEO';
 
 const About = () => {
   return (
     <div className="bg-gray-50">
+      <SEO 
+        title="About Us - Raju Industries | Textile Brokerage Since 1993"
+        description="Learn about Raju Industries, a trusted yarn and fabric broker since 1993. With headquarters in Bhiwandi and branches across India, we connect textile businesses with premium suppliers."
+        pathname="/about"
+      />
       <div className="relative bg-gray-800 text-white">
         <div className="absolute inset-0">
           <img

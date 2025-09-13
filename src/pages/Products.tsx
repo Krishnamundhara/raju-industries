@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ArrowRight } from 'lucide-react';
+import SEO from '../components/SEO';
 
 const productCategories = [
   {
@@ -85,6 +86,11 @@ const Products = () => {
 
   return (
     <div className="py-16 bg-gray-50">
+      <SEO 
+        title="Products - Raju Industries | Premium Yarn & Fabric Brokerage"
+        description="Explore our extensive range of premium yarn and fabric products. Raju Industries offers cotton, viscose, and texturized yarns through our brokerage services."
+        pathname="/products"
+      />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl font-bold text-gray-900 text-center">Our Products</h1>
         <p className="mt-4 text-xl text-gray-600 text-center mb-12">

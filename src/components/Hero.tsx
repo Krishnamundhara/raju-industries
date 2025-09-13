@@ -6,12 +6,12 @@ const heroImages = [
   {
     url: '/images/hero/color.jpg',
     title: 'RAJU INDUSTRIES',
-    subtitle: 'Trade Yarn. Make Fabric. Lead with Quality.'
+    subtitle: 'Trusted Broker of Premium Yarn & Fabrics'
   },
   {
     url: '/images/hero/yarn-storage.jpg',
     title: 'RAJU INDUSTRIES',
-    subtitle: 'Leading Manufacturer of Premium Textile products'
+    subtitle: 'Premium Cotton, Viscose & Texturized Yarn Trading'
   },
   {
     url: '/images/hero/yarn-storage%202.jpg',
@@ -26,7 +26,7 @@ const heroImages = [
   {
     url: '/images/hero/abt.jpg',
     title: 'RAJU INDUSTRIES',
-    subtitle: 'Quality Yarn Trader'
+    subtitle: 'Pan-India Textile Brokerage Services'
   }
 ];
 

@@ -10,7 +10,7 @@ const Contact = () => {
             Contact Us
           </h2>
           <p className="mt-4 text-xl text-gray-600">
-            Get in touch with us for any inquiries about our products
+            Get in touch with our brokerage team for yarn and fabric sourcing inquiries
           </p>
         </div>
 
@@ -40,12 +40,37 @@ const Contact = () => {
           {/* Address */}
           <div className="flex flex-col items-center p-6 bg-white rounded-lg shadow-sm">
             <MapPin className="w-8 h-8 text-primary-600" />
-            <h3 className="mt-4 text-lg font-semibold text-gray-900">Visit Us</h3>
+            <h3 className="mt-4 text-lg font-semibold text-gray-900">Headquarters</h3>
             <p className="mt-2 text-gray-600 text-center">
               Raju Industries,<br />
-              Industrial Area,<br />
-              Your City, State
+              Bhiwandi,<br />
+              Maharashtra, India
             </p>
+          </div>
+        </div>
+
+        {/* Branch Locations */}
+        <div className="mt-12">
+          <h3 className="text-2xl font-bold text-gray-900 text-center mb-8">Our Branch Locations</h3>
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-3">
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <h4 className="font-semibold text-gray-900">Central India</h4>
+              <p className="mt-2 text-gray-600">
+                Bhrahanpur, Madhya Pradesh
+              </p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <h4 className="font-semibold text-gray-900">Western India</h4>
+              <p className="mt-2 text-gray-600">
+                Surat, Gujarat
+              </p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <h4 className="font-semibold text-gray-900">Southern India</h4>
+              <p className="mt-2 text-gray-600">
+                Erode, Tamil Nadu
+              </p>
+            </div>
           </div>
         </div>
 
