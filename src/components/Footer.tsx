@@ -59,6 +59,7 @@ const Footer = () => {
             <address className="mt-4 text-gray-300 text-sm not-italic leading-relaxed">
               67 Hassan bagh, opp hathi sizing,<br />
               dhamankar naka, bhiwandi<br />
+              <a href="tel:+919309531311" className="hover:text-white transition-colors duration-300">Contact: +91 9309531311</a><br />
               <a href="tel:+919130977555" className="hover:text-white transition-colors duration-300">Contact: +91 9130977555</a><br />
               <a href="mailto:rajuind2024@gmail.com" className="hover:text-white transition-colors duration-300">E-mail: rajuind2024@gmail.com</a>
             </address>

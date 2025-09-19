@@ -53,7 +53,7 @@ const SEO: React.FC<SEOProps> = ({
             "name": "Raju Industries",
             "image": "${siteUrl}/images/CompanyLogo/raju_c.jpg",
             "url": "${siteUrl}",
-            "telephone": "+919130977555",
+            "telephone": ["+919309531311", "+919130977555"],
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "67 Hassan bagh, opp hathi sizing",
