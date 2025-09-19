@@ -18,7 +18,7 @@ const Contact = () => {
 
     // Message to be sent
     const message = encodeURIComponent(
-      'Welcome to RAJU INDUSTRIES.\nWe supply all types of yarns at competitive rates.\nMOB.9309531311/9322223600\nVisit our website: https://rajuindustries.netlify.app/'
+      'Welcome to RAJU INDUSTRIES.\nWe supply all types of yarns at competitive rates.\nMOB.9130977555\nVisit our website: https://rajuindustries.netlify.app/'
     );
 
     // Create WhatsApp URL with phone number and message
@@ -88,18 +88,11 @@ const Contact = () => {
             <h3 className="text-xl font-bold text-gray-900 text-center mb-3">Call Us</h3>
             <div className="flex flex-col items-center space-y-2">
               <a 
-                href="tel:+919309531311" 
+                href="tel:+919130977555" 
                 className="flex items-center px-6 py-3 bg-gray-50 hover:bg-primary-50 rounded-full transition-colors duration-300 hover:text-primary-600"
               >
                 <Phone className="h-5 w-5 mr-2 text-primary-600" />
-                <span className="font-medium">+91 93095 31311</span>
-              </a>
-              <a 
-                href="tel:+919322223600" 
-                className="flex items-center px-6 py-3 bg-gray-50 hover:bg-primary-50 rounded-full transition-colors duration-300 hover:text-primary-600"
-              >
-                <Phone className="h-5 w-5 mr-2 text-primary-600" />
-                <span className="font-medium">+91 93222 23600</span>
+                <span className="font-medium">+91 91309 77555</span>
               </a>
             </div>
           </div>
