@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Mail, Phone, Send, MessageSquare, Globe, Building } from 'lucide-react';
+import { Mail, Phone, Send, MessageSquare, Building } from 'lucide-react';
 import SEO from '../components/SEO';
 
 const Contact = () => {
@@ -193,32 +193,21 @@ const Contact = () => {
                 </form>
               </div>
 
-              {/* QR Code Section */}
-              <div className="bg-gray-50 rounded-xl p-6 lg:p-8 border border-gray-100 shadow-sm flex flex-col items-center justify-center">
-                <div className="flex items-center mb-6">
-                  <Globe className="h-6 w-6 text-primary-600 mr-3" />
-                  <h3 className="text-xl font-bold text-gray-900">
-                    Scan to Visit Our Website
-                  </h3>
-                </div>
-                
-                <div className="bg-white rounded-lg shadow-sm p-3 border-8 border-white">
-                  <div className="relative">
-                    <div className="absolute inset-0 bg-primary-500/10 rounded-lg transform translate-x-1 translate-y-1"></div>
-                    <img 
-                      src="/images/rajuindustries_qr.png"
-                      alt="Raju Industries Website QR Code"
-                      className="relative z-10 w-48 h-48 object-contain"
-                    />
-                  </div>
-                </div>
-                
-                <div className="mt-6 text-center">
-                  <p className="text-gray-600">
-                    Scan this QR code to visit<br />
-                    <span className="text-primary-600 font-semibold">Raju Industries</span> website
-                  </p>
-                </div>
+              {/* Google QR Code Section */}
+              <div className="flex flex-col items-center justify-center">
+                <a 
+                  href="https://www.google.co.in/search?utm_medium=noren&utm_source=gbp&utm_campaign=2025&q=RAJU+INDUSTRIES&ludocid=5024192388335438303&lsig=AB86z5W2I6kRqKczCWSKJCcZaGCp#ebo=0"
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="group relative hover:scale-105 transition-transform duration-300"
+                >
+                  <div className="absolute -inset-1 bg-gradient-to-r from-blue-500 via-red-500 to-yellow-500 rounded-lg blur opacity-0 group-hover:opacity-100 transition duration-300 animate-gradient"></div>
+                  <img 
+                    src="/images/GoogleQR.png"
+                    alt="Raju Industries on Google"
+                    className="relative w-80 h-auto rounded-lg shadow-lg group-hover:shadow-2xl transition-shadow duration-300 mobile-continuous-glow"
+                  />
+                </a>
               </div>
             </div>
           </div>
