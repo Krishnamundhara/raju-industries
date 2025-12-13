@@ -77,12 +77,16 @@ const Hero = () => {
   };
 
   useEffect(() => {
+    if (isAnimating) return;
+    
     const interval = setInterval(() => {
-      goToNextSlide();
+      setCurrentImageIndex((prevIndex) => 
+        prevIndex === heroImages.length - 1 ? 0 : prevIndex + 1
+      );
     }, 5000);
 
     return () => clearInterval(interval);
-  }, [currentImageIndex, isAnimating]);
+  }, [isAnimating]);
 
   return (
     <section id="home" className="relative h-screen overflow-hidden">

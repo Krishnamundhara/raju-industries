@@ -57,35 +57,35 @@ const productCategories = [
     description: 'Premium viscose spun yarn varieties',
     image: '/images/ViscoseSpunYarn.png',
     badge: 'Quality',
-    variants: ['2.18/2.20/2/40 doubling'],
+    variants: ['2.18/2.20/2/40 doubling', 'Premium Quality']
   },
   {
     name: 'Linen Blended Spun Yarn',
     description: 'Premium linen blended spun yarn varieties',
-    image: '/images/cotton-storage.jpg ',
+    image: '/images/cotton-storage.jpg',
     badge: 'Luxury',
-    variants: ['30 VSF SLUB' ],
+    variants: ['30 VSF SLUB', 'Linen Blend']
   },
   {
     name: 'Cotton Grey Fabrics',
     description: 'Premium cotton grey fabric varieties',
     image: '/images/gc.png',
     badge: 'Customizable',
-    variants: ['40x60x68x68', '40x70x72x72', 'Custom specifications available'],
+    variants: ['40x60x68x68', '40x70x72x72', 'Custom specifications available']
   },
   {
     name: '100% Viscose slub',
     description: 'Premium 100% viscose slub fabric varieties',
     image: '/images/pj_d.png',
     badge: 'Pure',
-    variants: ['100% Viscose Slub'],
+    variants: ['100% Viscose Slub', 'Pure Viscose']
   },
   {
-      name: 'Carded Slub',
-      description: 'Premium carded slub fabric varieties',
-      image: '/images/pj_a.png',
-      badge: 'Specialty',
-      variants: ['Carded Slub'],
+    name: 'Carded Slub',
+    description: 'Premium carded slub fabric varieties',
+    image: '/images/pj_a.png',
+    badge: 'Specialty',
+    variants: ['Carded Slub', 'Specialty Fabric']
   }
 ];
 

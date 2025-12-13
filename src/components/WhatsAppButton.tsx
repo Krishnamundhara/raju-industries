@@ -1,5 +1,3 @@
-import React from 'react';
-
 const WhatsAppButton = () => {
   const phoneNumber = '919309531311'; // Added 91 for India's country code
   const message = 'Hello! I am interested in your products.';

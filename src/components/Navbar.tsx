@@ -20,7 +20,7 @@ const Navbar = () => {
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, [scrolled]);
+  }, []);
 
   const isActive = (path: string) => {
     return location.pathname === path;

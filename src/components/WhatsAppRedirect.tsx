@@ -35,7 +35,7 @@ const WhatsAppRedirect = () => {
                   value={phoneNumber}
                   onChange={(e) => setPhoneNumber(e.target.value)}
                   placeholder="Enter your mobile number"
-                  className="focus:ring-indigo-500 focus:border-indigo-500 block w-full rounded-l-md sm:text-sm border-gray-300"
+                  className="focus:ring-indigo-500 focus:border-indigo-500 block w-full rounded-l-md sm:text-sm border border-gray-300"
                   pattern="[0-9]{10}"
                   maxLength={10}
                   required
