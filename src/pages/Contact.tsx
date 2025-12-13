@@ -105,13 +105,13 @@ const Contact = () => {
                 <Phone className="h-5 w-5 mr-2 text-red-600" />
                 <span className="font-medium">+91 93095 31311</span>
               </a>
-              <a
+              {/* <a
                 href="tel:+919130977555"
                 className="flex items-center px-6 py-2 bg-red-50 hover:bg-red-100 rounded-full transition-colors duration-300 hover:text-red-600 text-sm"
               >
                 <Phone className="h-5 w-5 mr-2 text-red-600" />
                 <span className="font-medium">+91 91309 77555</span>
-              </a>
+              </a> */}
             </div>
           </div>
 
