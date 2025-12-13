@@ -91,8 +91,8 @@ const Contact = () => {
 
           {/* Phone Information - Red */}
           <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-8 transform transition duration-300 hover:shadow-md">
-            <div className="bg-red-100 rounded-full p-3 w-16 h-16 mx-auto mb-5 flex items-center justify-center">
-              <Phone className="w-8 h-8 text-red-600" />
+            <div className="bg-green-100 rounded-full p-3 w-16 h-16 mx-auto mb-5 flex items-center justify-center">
+              <Phone className="w-8 h-8 text-green-600" />
             </div>
             <h3 className="text-lg font-bold text-gray-900 text-center mb-3">
               Call Us
@@ -100,18 +100,18 @@ const Contact = () => {
             <div className="flex flex-col items-center space-y-2">
               <a
                 href="tel:+919309531311"
-                className="flex items-center px-6 py-2 bg-red-50 hover:bg-red-100 rounded-full transition-colors duration-300 hover:text-red-600 text-sm"
+                className="flex items-center px-6 py-2 bg-green-50 hover:bg-green-100 rounded-full transition-colors duration-300 hover:text-green-600 text-sm"
               >
-                <Phone className="h-5 w-5 mr-2 text-red-600" />
+                <Phone className="h-5 w-5 mr-2 text-green-600" />
                 <span className="font-medium">+91 93095 31311</span>
               </a>
-              <a
+              {/* <a
                 href="tel:+919130977555"
-                className="flex items-center px-6 py-2 bg-red-50 hover:bg-red-100 rounded-full transition-colors duration-300 hover:text-red-600 text-sm"
+                className="flex items-center px-6 py-2 bg-green-50 hover:bg-green-100 rounded-full transition-colors duration-300 hover:text-green-600 text-sm"
               >
-                <Phone className="h-5 w-5 mr-2 text-red-600" />
+                <Phone className="h-5 w-5 mr-2 text-green-600" />
                 <span className="font-medium">+91 91309 77555</span>
-              </a>
+              </a> */}
             </div>
           </div>
 
