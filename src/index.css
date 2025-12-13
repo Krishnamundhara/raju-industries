@@ -29,6 +29,19 @@
   }
 }
 
+@keyframes whatsapp-glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(34, 197, 94, 0.6), 0 0 30px rgba(34, 197, 94, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(34, 197, 94, 0.8), 0 0 40px rgba(34, 197, 94, 0.5);
+  }
+}
+
+.whatsapp-glow {
+  animation: whatsapp-glow 2s ease-in-out infinite;
+}
+
 .animate-gradient {
   background-size: 200% 200%;
   animation: gradient 3s ease infinite;

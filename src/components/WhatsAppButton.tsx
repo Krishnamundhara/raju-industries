@@ -12,7 +12,7 @@ const WhatsAppButton = () => {
   return (
     <button
       onClick={handleWhatsAppClick}
-      className="fixed bottom-8 right-8 z-50 flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full shadow-lg transition-all duration-200 hover:scale-105"
+      className="fixed bottom-8 right-8 z-50 flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full shadow-lg transition-all duration-200 hover:scale-105 whatsapp-glow"
       aria-label="Contact on WhatsApp"
     >
       {/* WhatsApp SVG Icon */}
