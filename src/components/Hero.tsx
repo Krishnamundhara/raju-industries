@@ -6,7 +6,7 @@ const heroImages = [
   {
     url: '/images/hero/color.jpg',
     title: 'RAJU INDUSTRIES',
-    subtitle: 'Trusted Broker of Premium Yarn & Fabrics',
+    subtitle: 'Trusted Broker of Quality Yarn & Fabrics',
     description: 'Connecting buyers and sellers in the textile industry with quality materials and reliable service.'
   },
   {

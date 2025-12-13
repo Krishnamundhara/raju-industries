@@ -4,6 +4,8 @@ import About from '../components/About';
 import SEO from '../components/SEO';
 import { Link } from 'react-router-dom';
 import { ArrowRight, CheckCircle2, TrendingUp, Award } from 'lucide-react';
+import GoogleQRCode from '../components/GoogleQRCode';
+
 
 // Product images
 const productImages = [
@@ -29,58 +31,71 @@ const Home = () => {
   return (
     <div className="flex flex-col">
       <SEO 
-        title="Raju Industries - Premier Yarn & Fabric Broker in India"
+        title="Raju Industries - Yarn & Fabric Trader in India"
         pathname="/"
       />
       <Hero />
       
-      {/* Welcome Section with animated gradient border */}
+      {/* Welcome Section with Google QR Code Side by Side */}
       <section className="py-20 bg-white relative overflow-hidden">
         <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-primary-400 via-primary-600 to-primary-400"></div>
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-primary-50 rounded-full opacity-30 blur-3xl"></div>
         <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-primary-50 rounded-full opacity-30 blur-3xl"></div>
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
-          <div className="text-center max-w-3xl mx-auto">
+          {/* Centered Heading */}
+          <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 leading-tight">
               Welcome to <span className="text-primary-700">Raju Industries</span>
             </h2>
             <div className="mt-3 h-1 w-20 bg-primary-600 mx-auto"></div>
-            <p className="mt-8 text-lg sm:text-xl text-gray-700 leading-relaxed">
-              We are trusted brokers connecting buyers with premium yarn and fabric sources across India.
-              With more than 30 years of industry experience, our extensive network, competitive pricing, 
-              and reliable service has established us as a leading textile broker in the yarn and fabric industry.
-            </p>
-            
-            <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-8">
-              <div className="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
-                <div className="bg-primary-100 w-14 h-14 mx-auto rounded-full flex items-center justify-center">
-                  <CheckCircle2 className="h-7 w-7 text-primary-700" />
-                </div>
-                <h3 className="mt-4 text-lg font-semibold text-gray-900">Quality Assurance</h3>
-                <p className="mt-2 text-gray-600">Premium yarns and fabrics from trusted manufacturers</p>
-              </div>
+          </div>
+
+          {/* Two Column Layout */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            {/* Left Section - Content */}
+            <div>
+              <p className="text-lg sm:text-xl text-gray-700 leading-relaxed">
+                We are trusted brokers connecting buyers with premium yarn and fabric sources across India.
+                With more than 30 years of industry experience, our extensive network, competitive pricing, 
+                and reliable service has established us as a leading textile broker in the yarn and fabric industry.
+              </p>
               
-              <div className="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
-                <div className="bg-primary-100 w-14 h-14 mx-auto rounded-full flex items-center justify-center">
-                  <TrendingUp className="h-7 w-7 text-primary-700" />
+              <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-8 lg:gap-6">
+                <div className="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+                  <div className="bg-primary-100 w-14 h-14 mx-auto lg:mx-0 rounded-full flex items-center justify-center">
+                    <CheckCircle2 className="h-7 w-7 text-primary-700" />
+                  </div>
+                  <h3 className="mt-4 text-lg font-semibold text-gray-900">Quality Assurance</h3>
+                  <p className="mt-2 text-gray-600">Premium yarns and fabrics from trusted Mills</p>
                 </div>
-                <h3 className="mt-4 text-lg font-semibold text-gray-900">Competitive Pricing</h3>
-                <p className="mt-2 text-gray-600">Best market rates through our extensive network</p>
-              </div>
-              
-              <div className="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
-                <div className="bg-primary-100 w-14 h-14 mx-auto rounded-full flex items-center justify-center">
-                  <Award className="h-7 w-7 text-primary-700" />
+                
+                <div className="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+                  <div className="bg-primary-100 w-14 h-14 mx-auto lg:mx-0 rounded-full flex items-center justify-center">
+                    <TrendingUp className="h-7 w-7 text-primary-700" />
+                  </div>
+                  <h3 className="mt-4 text-lg font-semibold text-gray-900">Competitive Pricing</h3>
+                  <p className="mt-2 text-gray-600">Best market rates through our extensive network</p>
                 </div>
-                <h3 className="mt-4 text-lg font-semibold text-gray-900">Industry Experience</h3>
-                <p className="mt-2 text-gray-600">Three decades of expertise in the textile industry</p>
+                
+                <div className="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+                  <div className="bg-primary-100 w-14 h-14 mx-auto lg:mx-0 rounded-full flex items-center justify-center">
+                    <Award className="h-7 w-7 text-primary-700" />
+                  </div>
+                  <h3 className="mt-4 text-lg font-semibold text-gray-900">Industry Experience</h3>
+                  <p className="mt-2 text-gray-600">Three decades of expertise in the textile industry</p>
+                </div>
               </div>
+            </div>
+
+            {/* Right Section - Google QR Code */}
+            <div className="flex justify-center lg:justify-end">
+              <GoogleQRCode size="large" showBorder={true} />
             </div>
           </div>
         </div>
       </section>
-      
+
       {/* Featured Products Section */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -185,7 +200,7 @@ const Home = () => {
                 to="/products" 
                 className="inline-flex items-center justify-center px-6 py-3 border-2 border-white text-base font-medium rounded-md text-white bg-transparent hover:bg-white/10 transition-colors"
               >
-                Browse Products
+                Our Products
               </Link>
             </div>
           </div>

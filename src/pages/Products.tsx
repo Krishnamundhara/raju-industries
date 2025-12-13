@@ -125,7 +125,7 @@ const Products = () => {
   return (
     <div className="bg-gradient-to-b from-gray-50 to-white">
       <SEO 
-        title="Products - Raju Industries | Premium Yarn & Fabric Brokerage"
+        title="Products - Raju Industries | Yarn & Fabric Trader"
         description="Explore our extensive range of premium yarn and fabric products. Raju Industries offers cotton, viscose, and texturized yarns through our brokerage services."
         pathname="/products"
       />

@@ -13,9 +13,9 @@ const Footer = () => {
             <div className="absolute top-0 left-0 w-12 h-1 bg-primary-500 rounded-full"></div>
             <h3 className="text-white text-xl font-bold mt-4 mb-4">Raju Industries</h3>
             <p className="text-gray-300 text-sm leading-relaxed">
-              Leading manufacturer and supplier of premium quality yarns since 1993.<br />
-              <span className="font-medium text-white">Govind Mundhara</span> (Proprietor)<br />
-              <span className="text-gray-400 text-xs">G.S.T. No.: 27AHFPM0511N1ZD</span>
+              Yarn and Fabrics Trader, since 1993.<br />
+              <span className="font-medium text-white">Govind Mundhara</span> <br />
+              <span className="text-gray-400 text-xs">Bhiwandi - Mumbai</span>
             </p>
           </div>
           
@@ -57,17 +57,17 @@ const Footer = () => {
             <h3 className="text-white text-xl font-bold mt-4 mb-4">Connect With Us</h3>
             <SocialLinks className="mb-6 space-x-4" />
             <address className="mt-4 text-gray-300 text-sm not-italic leading-relaxed">
-              67 Hassan bagh, opp hathi sizing,<br />
-              dhamankar naka, bhiwandi<br />
-              <a href="tel:+919309531311" className="hover:text-white transition-colors duration-300">Contact: +91 9309531311</a><br />
-              <a href="tel:+919130977555" className="hover:text-white transition-colors duration-300">Contact: +91 9130977555</a><br />
+              67 Hassan Bagh, Opp Hathi Sizing,<br />
+              Dhamankar Naka, Bhiwandi, Mumbai<br />
+              {/* <a href="tel:+919309531311" className="hover:text-white transition-colors duration-300">Contact: +91 9309531311</a><br /> */}
+              {/* <a href="tel:+919130977555" className="hover:text-white transition-colors duration-300">Contact: +91 9130977555</a><br /> */}
               <a href="mailto:rajuind2024@gmail.com" className="hover:text-white transition-colors duration-300">E-mail: rajuind2024@gmail.com</a>
             </address>
           </div>
         </div>
         
         {/* Copyright Section */}
-        <div className="mt-12 pt-8 border-t border-gray-800">
+        <div className="mt-8 pt-4 border-t border-gray-800">
           <p className="text-center text-gray-400 text-sm">
             © {new Date().getFullYear()} Raju Industries. All rights reserved.
           </p>

@@ -14,14 +14,14 @@ interface SEOProps {
  * Simple, effective implementation with JSON-LD structured data
  */
 const SEO: React.FC<SEOProps> = ({
-  title = 'Raju Industries - Premium Yarn & Fabric Trading',
+  title = 'Raju Industries - Yarn & Fabric Trading',
   description = "Leading yarn broker since 1993. Premium cotton, viscose & texturized yarns. Serving textile industry across Maharashtra, Gujarat, MP & Tamil Nadu.",
   keywords = "yarn supplier, cotton yarn, viscose yarn, polyester yarn, textile broker, Bhiwandi, Maharashtra",
   ogImage = "/images/hero/yarn-storage.jpg",
   pathname
 }) => {
   // Use your actual domain when available
-  const siteUrl = "https://rajuindustries.netlify.app";
+  const siteUrl = "https://rajuindustries.me";
   const canonical = pathname ? `${siteUrl}${pathname}` : siteUrl;
 
   return (

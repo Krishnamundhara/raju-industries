@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Mail, Phone, Send, MessageSquare, Building } from 'lucide-react';
 import SEO from '../components/SEO';
+import GoogleQRCode from '../components/GoogleQRCode';
 
 const Contact = () => {
   const [phoneNumber, setPhoneNumber] = useState('');
@@ -195,19 +196,7 @@ const Contact = () => {
 
               {/* Google QR Code Section */}
               <div className="flex flex-col items-center justify-center">
-                <a 
-                  href="https://www.google.co.in/search?utm_medium=noren&utm_source=gbp&utm_campaign=2025&q=RAJU+INDUSTRIES&ludocid=5024192388335438303&lsig=AB86z5W2I6kRqKczCWSKJCcZaGCp#ebo=0"
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="group relative hover:scale-105 transition-transform duration-300"
-                >
-                  <div className="absolute -inset-1 bg-gradient-to-r from-blue-500 via-red-500 to-yellow-500 rounded-lg blur opacity-0 group-hover:opacity-100 transition duration-300 animate-gradient"></div>
-                  <img 
-                    src="/images/GoogleQR.png"
-                    alt="Raju Industries on Google"
-                    className="relative w-80 h-auto rounded-lg shadow-lg group-hover:shadow-2xl transition-shadow duration-300 mobile-continuous-glow"
-                  />
-                </a>
+                <GoogleQRCode size="medium" showBorder={true} />
               </div>
             </div>
           </div>
