@@ -12,10 +12,10 @@ const Footer = () => {
           <div className="relative">
             <div className="absolute top-0 left-0 w-12 h-1 bg-primary-500 rounded-full"></div>
             <h3 className="text-white text-xl font-bold mt-4 mb-4">Raju Industries</h3>
+              <span className="font-medium text-white">Govind Mundhara</span> (Proprietor) <br />
             <p className="text-gray-300 text-sm leading-relaxed">
               Yarn and Fabrics Trader, since 1993.<br />
-              <span className="font-medium text-white">Govind Mundhara</span> <br />
-              <span className="text-gray-400 text-xs">Bhiwandi - Mumbai</span>
+              <span className="text-gray-300 text-xs">Bhiwandi - Mumbai</span>
             </p>
           </div>
           
