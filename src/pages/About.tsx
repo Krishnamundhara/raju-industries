@@ -49,7 +49,7 @@ const About = () => {
               <h2 className="text-3xl font-bold text-gray-900 mb-4 relative">
                 <span className="relative inline-block">
                   Our Company
-                  <span className="absolute bottom-0 left-0 w-full h-1 bg-primary-500"></span>
+                  <div className="mt-3 w-24 h-1 bg-primary-500 mx-auto"></div>
                 </span>
               </h2>
               <div className="mt-6 text-gray-600 space-y-4">
@@ -70,12 +70,12 @@ const About = () => {
                 </div>
                 <div className="text-center p-4 bg-white rounded-lg shadow-md transform hover:-translate-y-1 transition duration-300">
                   <Users className="h-8 w-8 text-primary-600 mx-auto" />
-                  <p className="mt-2 text-3xl font-bold text-gray-900">100+</p>
+                  <p className="mt-2 text-3xl font-bold text-gray-900">1000+</p>
                   <p className="text-sm text-gray-600">Clients</p>
                 </div>
                 <div className="text-center p-4 bg-white rounded-lg shadow-md transform hover:-translate-y-1 transition duration-300">
                   <Layers className="h-8 w-8 text-primary-600 mx-auto" />
-                  <p className="mt-2 text-3xl font-bold text-gray-900">4</p>
+                  <p className="mt-2 text-3xl font-bold text-gray-900">5+</p>
                   <p className="text-sm text-gray-600">Locations</p>
                 </div>
               </div>
@@ -89,7 +89,7 @@ const About = () => {
             <h2 className="text-3xl font-bold text-gray-900 inline-block relative">
               <span className="relative inline-block">
                 Our Vision & Mission
-                <span className="absolute bottom-0 left-0 w-full h-1 bg-primary-500"></span>
+                <div className="w-24 h-1 bg-primary-500 mx-auto"></div>
               </span>
             </h2>
           </div>
@@ -127,7 +127,7 @@ const About = () => {
             <h2 className="text-3xl font-bold text-gray-900 inline-block relative">
               <span className="relative inline-block">
                 Our Trading Network
-                <span className="absolute bottom-0 left-0 w-full h-1 bg-primary-500"></span>
+                <div className="w-24 h-1 bg-primary-500 mx-auto"></div>
               </span>
             </h2>
             <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
@@ -203,7 +203,7 @@ const About = () => {
             <h2 className="text-3xl font-bold text-gray-900 inline-block relative">
               <span className="relative inline-block">
                 Our Quality Standards
-                <span className="absolute bottom-0 left-0 w-full h-1 bg-primary-500"></span>
+                <div className="w-24 h-1 bg-primary-500 mx-auto"></div>
               </span>
             </h2>
           </div>

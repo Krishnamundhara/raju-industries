@@ -46,9 +46,9 @@ const Home = () => {
           {/* Centered Heading */}
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 leading-tight">
-              Welcome to <span className="text-primary-700">Raju Industries</span>
+              Welcome to <span className="text-sky-600">Raju Industries</span>
             </h2>
-            <div className="mt-3 h-1 w-20 bg-primary-600 mx-auto"></div>
+            <div className="mt-3 h-1 w-40 bg-gradient-to-r from-blue-500 via-red-500 to-yellow-500 mx-auto"></div>
           </div>
 
           {/* Two Column Layout */}
@@ -101,7 +101,7 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">Featured Products</h2>
-            <div className="mt-3 h-1 w-20 bg-primary-600 mx-auto"></div>
+            <div className="mt-3 h-1 w-40 bg-primary-600 mx-auto"></div>
             <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
               We offer a wide range of premium yarns and fabrics to meet your manufacturing needs
             </p>
@@ -155,7 +155,7 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">What Our Clients Say</h2>
-            <div className="mt-3 h-1 w-20 bg-primary-600 mx-auto"></div>
+            <div className="mt-3 h-1 w-40 bg-primary-600 mx-auto"></div>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
